@@ -51,7 +51,7 @@ h2 em, h1 em { color: var(--mango); font-family: var(--script); font-size: 1.1em
 .menu-toggle span { font-size: 1rem; margin-left: 7px; }
 
 .hero { align-items: center; display: flex; min-height: min(820px, 100vh); overflow: hidden; padding: 150px 0 90px; position: relative; }
-.hero-image { background: linear-gradient(90deg, rgba(24, 16, 11, .78), rgba(24, 16, 11, .29) 61%, rgba(24, 16, 11, .13)), url("images/busan-cafe.jpg") center / cover; inset: 0; position: absolute; }
+.hero-image { background: linear-gradient(90deg, rgba(24, 16, 11, .88), rgba(24, 16, 11, .45) 61%, rgba(24, 16, 11, .22)), url("images/busan-cafe.jpg") center / cover; inset: 0; position: absolute; }
 .hero-content { position: relative; z-index: 1; }
 .hero-copy { color: var(--cream); font-size: clamp(1rem, 1.5vw, 1.12rem); max-width: 410px; }
 .hero-actions { align-items: center; display: flex; gap: 27px; margin-top: 34px; }
