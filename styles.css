@@ -38,7 +38,7 @@ h2 em, h1 em { color: var(--mango); font-family: var(--script); font-size: 1.1em
 .site-header { background: rgba(255, 249, 237, .96); border-bottom: 1px solid var(--line); position: absolute; top: 0; width: 100%; z-index: 5; }
 .header-inner { align-items: center; display: flex; height: 88px; justify-content: space-between; }
 .brand { align-items: center; display: inline-flex; gap: 10px; }
-.brand-mark { align-items: center; background: var(--espresso); border-radius: 50%; color: var(--cream); display: inline-flex; font-family: Georgia, serif; font-size: 1.8rem; font-style: italic; font-weight: 700; height: 37px; justify-content: center; line-height: 1; transform: rotate(-18deg); width: 37px; }
+.brand-mark { display: block; height: 42px; object-fit: contain; width: 42px; }
 .brand-name { color: var(--espresso); font-family: var(--display); font-size: 1.2rem; font-weight: 700; line-height: 1; }
 .brand-name small { display: block; font-family: var(--body); font-size: .46rem; font-weight: 700; letter-spacing: .18em; margin-top: 7px; text-align: center; text-transform: uppercase; }
 .brand-name i { font-style: normal; margin-left: 6px; }
@@ -142,7 +142,6 @@ h2 em, h1 em { color: var(--mango); font-family: var(--script); font-size: 1.1em
 
 .site-footer { background: var(--ink); color: var(--cream); padding: 55px 0 25px; }
 .footer-top { align-items: start; display: flex; justify-content: space-between; }
-.footer-brand .brand-mark { background: var(--cream); color: var(--espresso); }
 .footer-brand .brand-name { color: var(--cream); }
 .footer-tagline { font-family: var(--display); font-size: 1.6rem; line-height: 1.1; margin: 0; text-align: center; }
 .footer-tagline em { color: var(--mango); font-family: var(--script); font-size: 1.4em; font-style: normal; }
@@ -183,7 +182,7 @@ h2 em, h1 em { color: var(--mango); font-family: var(--script); font-size: 1.1em
   .container { width: calc(100% - 36px); }
   .header-inner { height: 74px; }
   .brand-name { font-size: 1.03rem; }
-  .brand-mark { height: 32px; width: 32px; }
+  .brand-mark { height: 36px; width: 36px; }
   .hero { min-height: 650px; padding-top: 120px; }
   h1 { font-size: clamp(3.1rem, 15vw, 4.3rem); }
   h2 { font-size: clamp(2.8rem, 14vw, 4rem); }
