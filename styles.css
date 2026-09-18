@@ -145,7 +145,7 @@ h2 em, h1 em { color: var(--mango); font-family: var(--script); font-size: 1.1em
 .site-footer { background: var(--ink); color: var(--cream); padding: 55px 0 25px; }
 .footer-top { align-items: start; display: flex; justify-content: space-between; }
 .footer-brand { height: 90px; overflow: hidden; position: relative; width: 190px; }
-.footer-brand-logo { filter: brightness(0) invert(1); height: 173px; left: 50%; max-width: none; position: absolute; top: -32px; transform: translateX(-50%); width: 260px; }
+.footer-brand-logo { filter: brightness(0) invert(1); height: 173px; left: 37%; max-width: none; position: absolute; top: -32px; transform: translateX(-50%); width: 260px; }
 .footer-tagline { font-family: var(--display); font-size: 1.6rem; line-height: 1.1; margin: 0; text-align: center; }
 .footer-tagline em { color: var(--mango); font-family: var(--script); font-size: 1.4em; font-style: normal; }
 .back-top { border-bottom: 1px solid var(--mango); font-size: .66rem; font-weight: 700; letter-spacing: .12em; padding-bottom: 7px; text-transform: uppercase; }
