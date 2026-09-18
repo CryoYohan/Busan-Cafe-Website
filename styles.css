@@ -38,6 +38,8 @@ h2 em, h1 em { color: var(--mango); font-family: var(--script); font-size: 1.1em
 .site-header { background: rgba(255, 249, 237, .96); border-bottom: 1px solid var(--line); position: absolute; top: 0; width: 100%; z-index: 5; }
 .header-inner { align-items: center; display: flex; height: 88px; justify-content: space-between; }
 .brand { align-items: center; display: inline-flex; gap: 10px; }
+.header-brand { display: block; height: 88px; overflow: hidden; position: relative; width: 180px; }
+.header-brand-logo { height: 160px; left: 50%; max-width: none; position: absolute; top: -30px; transform: translateX(-50%); width: 240px; }
 .brand-mark { display: block; height: 42px; object-fit: contain; width: 42px; }
 .brand-name { color: var(--espresso); font-family: var(--display); font-size: 1.2rem; font-weight: 700; line-height: 1; }
 .brand-name small { display: block; font-family: var(--body); font-size: .46rem; font-weight: 700; letter-spacing: .18em; margin-top: 7px; text-align: center; text-transform: uppercase; }
