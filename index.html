@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Busan Cafe serves premium coffee, Korean-inspired drinks, and freshly made favorites.">
+  <title>Busan Cafe | Coffee, Shake, Happiness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="images/busan-cafe-logo.jpg">
+  <link rel="apple-touch-icon" href="images/busan-cafe-logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Busan Cafe home">
+        <span class="brand-mark" aria-hidden="true">e</span>
+        <span class="brand-name">Busan Cafe<small>부산 카페 <i>est 21</i></small></span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+        <a class="nav-button" href="#menu">View menu <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="site-nav" aria-label="Open navigation" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image"></div>
+      <div class="hero-content container">
+        <p class="eyebrow light">Premium drinks <span></span> Korean inspired</p>
+        <h1 id="hero-title">A little taste of<br><em>Busan</em>, every day.</h1>
+        <p class="hero-copy">Freshly made coffee, shakes, and happy moments served with a little Seoul-to-Busan soul.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+          <a class="text-link light-link" href="#visit">Plan your visit <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-note" aria-hidden="true">COFFEE <span>•</span> SHAKE <span>•</span> HAPPINESS</div>
+    </section>
+
+    <section class="intro section reveal" id="about" aria-labelledby="about-title">
+      <div class="container intro-grid">
+        <div class="image-frame interior-frame">
+          <img src="images/cafe-place-theme.jpg" alt="Warmly lit Busan Cafe counter with walnut wood details">
+          <span class="image-stamp">Est.<br><strong>21</strong></span>
+        </div>
+        <div class="intro-copy">
+          <p class="eyebrow">The Busan way</p>
+          <h2 id="about-title">A warm corner<br>for <em>good things.</em></h2>
+          <p>Busan Cafe brings together the easy warmth of a neighborhood coffee shop and the bright, playful flavors of Korea. Every cup is made to slow the day down, even just for a little while.</p>
+          <p class="script-note">Take a seat. Stay a while.</p>
+          <a class="text-link" href="#visit">Our story <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Something for every mood</p>
+            <h2 id="menu-title">Find your<br><em>favorite.</em></h2>
+          </div>
+          <p class="heading-copy">From slow-sipped coffee to colorful refreshers and our signature treats, there is always something new to love.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card menu-card-featured reveal">
+            <div class="card-image"><img src="images/coffee-menu.jpg" alt="Coffee menu featuring iced lattes and hot coffee"></div>
+            <div class="card-content"><p class="card-kicker">01 <span>Classic comfort</span></p><h3>Coffee</h3><p>Espresso favorites, iced or hot, with a little Busan Cafe magic.</p><a class="text-link" href="#visit">Discover coffee <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="card-image"><img src="images/refreshers-menu.jpg" alt="Colorful Korean kombucha refreshers and protein drinks"></div>
+            <div class="card-content"><p class="card-kicker">02 <span>Bright &amp; fresh</span></p><h3>Refreshers</h3><p>Fruit-forward Korean kombucha, protein lattes, and bright sips.</p><a class="text-link" href="#visit">See refreshers <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="card-image"><img src="images/menu.jpg" alt="Busan Cafe protein shakes and halo-halo collection"></div>
+            <div class="card-content"><p class="card-kicker">03 <span>Made to share</span></p><h3>Signature</h3><p>Our best sellers, indulgent shakes, and colorful halo-halo creations.</p><a class="text-link" href="#visit">Explore signatures <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="card-image"><img src="images/fruit-soda.jpg" alt="Colorful Busan Cafe fruit soda drinks"></div>
+            <div class="card-content"><p class="card-kicker">04 <span>Fizzy &amp; fruity</span></p><h3>Fruit Soda</h3><p>Bright, refreshing flavors made for sunny afternoons and easy conversations.</p><a class="text-link" href="#visit">See the flavors <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+        <details class="menu-reference">
+          <summary><span>Browse the full menu</span><b aria-hidden="true">+</b></summary>
+          <div class="menu-reference-content"><img src="images/menu-prices.jpg" alt="Busan Cafe full menu with coffee, frappe, milk tea, and snack prices"></div>
+        </details>
+        <div class="menu-mosaic" aria-label="More from the Busan Cafe menu">
+          <article><img src="images/frappe-matcha-fruit-latte-milkteas.jpg" alt="Matcha, fruit latte, milk tea, and frappe menu selections"><div><span>Colorful cravings</span><strong>Matcha, milk tea &amp; frappe</strong></div></article>
+          <article><img src="images/snacks-drinks.jpg" alt="Busan Cafe snacks, burgers, hotdogs, and combo drinks"><div><span>Something to share</span><strong>Snacks &amp; combo drinks</strong></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature section reveal" aria-labelledby="feature-title">
+      <div class="container feature-grid">
+        <div class="feature-copy">
+          <p class="eyebrow">The one to try</p>
+          <h2 id="feature-title">Meet the<br><em>Mango Graham.</em></h2>
+          <p>Bright mango, creamy goodness, and a graham crunch come together in our sunny signature favorite. It is a little vacation in a cup.</p>
+          <div class="feature-meta"><span>Signature favorite</span><strong>Cold &amp; creamy</strong></div>
+          <a class="button button-dark" href="#visit">Order your favorite <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="feature-image-wrap">
+          <div class="feature-image"><img src="images/busan-cafe1.jpg" alt="Two Mango Graham signature drinks topped with ice cream"></div>
+          <span class="feature-label">Freshly<br>made</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="delivery section reveal" aria-labelledby="delivery-title">
+      <div class="container delivery-grid">
+        <div class="delivery-image image-frame"><img src="images/busan-cafe2.jpg" alt="Busan Cafe takeaway drinks and delivery bag"></div>
+        <div class="delivery-copy">
+          <p class="eyebrow">Good things, wherever you are</p>
+          <h2 id="delivery-title">Made for<br><em>the journey.</em></h2>
+          <p>Drop by for a slow afternoon, pick up a cup on the go, or let us bring a little cafe happiness to your door.</p>
+          <div class="delivery-list"><span>01</span> Dine in comfortably <span>02</span> Take away freshly <span>03</span> Delivered with care</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section reveal" id="visit" aria-labelledby="visit-title">
+      <div class="container visit-inner">
+        <div class="visit-heading"><p class="eyebrow light">Come say hello</p><h2 id="visit-title">Your table<br>is <em>waiting.</em></h2></div>
+        <div class="visit-details">
+          <div><p class="detail-label">Find us</p><p>Busan Cafe<br>Buanoy, Balamban, Cebu</p><a class="text-link light-link map-trigger" href="#location-map">View location <span aria-hidden="true">↓</span></a></div>
+          <div><p class="detail-label">Hours</p><p>Monday – Sunday<br>9:00 am – 9:00 pm</p><span class="open-note">Open daily for good coffee.</span></div>
+          <div><p class="detail-label">Stay connected</p><p>Follow along for<br>fresh cafe news.</p><a class="text-link light-link" href="#top">@busancafe <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <details class="map-panel" id="location-map">
+          <summary><span>View the cafe on Google Maps</span><b aria-hidden="true">+</b></summary>
+          <div class="map-content">
+            <iframe src="https://www.google.com/maps?q=Busan+Cafe+Buanoy+Balamban+Cebu&output=embed" loading="lazy" title="Busan Cafe location in Buanoy, Balamban, Cebu"></iframe>
+            <div class="map-caption"><span>Buanoy, Balamban, Cebu, Philippines</span><a class="text-link light-link" href="https://share.google/C08MrFRqqbEbYqIVI">Open directions <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand footer-brand" href="#top" aria-label="Busan Cafe home"><span class="brand-mark" aria-hidden="true">e</span><span class="brand-name">Busan Cafe<small>부산 카페 <i>est 21</i></small></span></a>
+      <p class="footer-tagline">Coffee, shake,<br><em>happiness.</em></p>
+      <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="container footer-bottom"><span>© 2024 Busan Cafe. Made with warmth.</span><span>Premium drinks <b>•</b> Freshly made <b>•</b> Korean inspired</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
